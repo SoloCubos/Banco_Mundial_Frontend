@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#contenedor{
+    max-width: 600px;
+    max-height: 800px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+    
+    
+}
+#contenedor-botones{
+    display: grid;
+  
+}
+#contenedor-simple{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr ;
+    gap: 10px;
+}
+img{
+    
+    margin-top: 10px;
+    
+    
+}
+p{
+    margin-top: 150px;
+    
+    text-align: center;
+}
+a.btn{
+    margin-top: 10px;
+}
+
+a.btn-l{
+    grid-column: 1;
+}
+a.btn-r{
+    grid-column: 2;
+}
