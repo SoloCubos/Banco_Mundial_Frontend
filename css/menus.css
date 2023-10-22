@@ -7,40 +7,64 @@ body{
 #contenedor{
     max-width: 600px;
     max-height: 800px;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    
-    
-    
 }
 #contenedor-botones{
+    margin-top: 40px;
     display: grid;
+    grid-template-columns: 1fr 1fr;
   
 }
 #contenedor-simple{
+    align-items: center;
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: 1fr ;
-    gap: 10px;
 }
 img{
-    
-    margin-top: 10px;
-    
-    
+    max-height: 100px;
+    margin-left: 40px;
 }
 p{
-    margin-top: 150px;
-    
-    text-align: center;
+    margin-left: 50px;
+    margin-right: 40px;
 }
 a.btn{
+    background-color: #294897;
+    border-color: #294897;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 a.btn-l{
-    grid-column: 1;
+    margin-right: 70px;
+    text-align: left;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
 a.btn-r{
+    margin-left: 70px;
+    text-align: right;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+a.btn-cancel{
+    background-color: #444444;
+    border-color: #444444;
     grid-column: 2;
+}
+a.btn-cancel:hover{
+    background-color: gray;
+    border-color: gray;
+    grid-column: 2;
+}
+a.btn-retiro{
+    background-color: #444444;
+    border-color: #444444;
+}
+a.btn-retiro:hover{
+    background-color: gray;
+    border-color: gray;
 }
