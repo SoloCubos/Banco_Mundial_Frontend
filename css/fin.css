@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#contenedor{
+    max-width: 600px;
+    max-height: 800px;
+    display: grid;
+    justify-items: center;
+}
+img{
+    max-height: 90px;
+    margin-bottom: 50px;
+}
+h1{
+    margin-bottom: 100px !important;
+    font-size: 30px !important;
+}
+.contenedor-boton{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+a.btn{
+    grid-column: 2;
+    min-width: 200px;
+    background-color: #444444;
+    border-color: #444444;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    text-align: right;
+    margin-left: 25px;
+}
+a.btn:hover{
+    background-color: gray;
+    border-color: gray;
+}
