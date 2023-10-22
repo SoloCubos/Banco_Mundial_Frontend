@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor{
+    max-width: 600px;
+    max-height: 800px;    
+
+}
+.contenedor-principal{
+    justify-items: center;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+img{
+    max-height: 90px;
+    margin-bottom: 10px;
+}
+p{
+    text-align: center;
+}
+.formulario{
+    display: flex;
+
+}
+.form-control{
+    text-align: center;
+}
+.contenedor-teclas{
+    margin: auto;
+    max-width: 240px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+a.btn{
+    background-color: #294897;
+    border-color: #294897;
+}
+a.btn-num{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 25px;
+}
+.contenedor-botones{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+a.btn-l{
+    background-color: #444444;
+    border-color: #444444;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 25px;
+}
+a.btn-r{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+a.btn-l:hover{
+    background-color: gray;
+    border-color: gray;
+}
